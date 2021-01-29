@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <style>
+      body{background-image:url(https://p4.wallpaperbetter.com/wallpaper/623/23/811/hotel-balcony-porch-window-wallpaper-preview.jpg);
+           background-color:cover;
+      }
+
+      .center {
+          margin: auto;
+          width: 40%;
+          border: 5px solid #000000;
+          background-color: yellow;
+          padding: 30px;
+          opacity: 0.8;
+          font-weight: bold;
+          color: #000000;
+      }
+      .button{
+      background-color:green;
+      border: none;
+      color:white;
+      padding: 4px 3px;
+      text-align:center;
+      text-decoration:none;
+      display: inline-block;
+      font-size: 16px;
+      margin:4px 2px;
+      cursor:pointer;
+    }
+  </style>
+  </head>
+
+<body>
+<br><br><br><br><br><br><br><br><br><br><div class="center">
+  <h2 align="center">Registration Account Page</h2>
+  <div class="center">
+  <form action="register.php" enctype="multipart/form-data" method="post" align="center"
+  
+    onsubmit="return confirm('Are you sure you want to register?');">
+    <label for="name">Staff Name:</label><br>
+    <input type="text" id="name" name="name" value="" required><br>
+
+    <label for="email">Staff Email:</label><br>
+    <input type="text" id="email" name="email" value="" required><br>
+
+    <label for="number">Staff no:</label><br>
+    <input type="text" id="number" name="number" value="" required><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" value="" required><br><br>
+    <button class="button">
+    <input type="submit" value="Sign Up" class="button"></button>
+    </div>
+  </form>
+  <p align="center"><a href="index.html">After registration you need to Login!!</a></p>
+  </div><br><br><br><br><br><br><br><br><br>
+</body>
+
+</html>
